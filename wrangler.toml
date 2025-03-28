@@ -4,3 +4,5 @@ compatibility_date = "2023-12-03"
 [site]
 bucket = "./dist"
 entry-point = "index.html"
+
+ignore = ["wrangler.toml"]
