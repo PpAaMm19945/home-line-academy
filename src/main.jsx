@@ -1,11 +1,11 @@
-import React from 'react'
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
-import Home from './pages/Home.jsx'
-import About from './pages/About.jsx'
-import Curriculum from './pages/Curriculum.jsx'
-import Testimonials from './pages/Testimonials.jsx'
-import Contact from './pages/Contact.jsx'
-import Demo from './pages/Demo.jsx'
+import React from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Home from "./pages/Home.jsx";
+import About from "./pages/About.jsx";
+import Curriculum from "./pages/Curriculum.jsx";
+import Testimonials from "./pages/Testimonials.jsx";
+import Contact from "./pages/Contact.jsx";
+import Demo from "./pages/Demo.jsx";
 
 const App = () => {
   return (
@@ -22,7 +22,7 @@ const App = () => {
       </Routes>
       <Footer />
     </Router>
-  )
-}
+  );
+};
 
-export default App
+export default App;

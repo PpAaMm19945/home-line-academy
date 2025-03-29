@@ -1,6 +1,6 @@
 // src/components/Header.jsx
-import React from 'react'
-import logo from '../assets/images/logo.png'
+import React from "react";
+import logo from "../assets/images/logo.png";
 
 const Header = () => {
   return (
@@ -9,7 +9,7 @@ const Header = () => {
       <h1>HOME-LINE ACADEMY</h1>
       <p>Blended Learning</p>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
